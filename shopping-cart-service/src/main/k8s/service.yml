@@ -1,0 +1,10 @@
+metadata:
+  name: shopping-cart-service-svc
+spec:
+  selector:
+    app: shopping-cart-service
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 8101
+      targetPort: 8101
